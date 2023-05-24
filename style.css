@@ -26,6 +26,10 @@ aside img{
     height: auto;
 }
 
+.sisi-keliling {
+    align-content: center;
+}
+
 article img{
     max-width: 50%;
     height: auto;
