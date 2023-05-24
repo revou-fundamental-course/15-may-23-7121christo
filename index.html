@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Persegi</title>
+    <!--menghubungkan file external-->
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="div-header">
+            <h1>KALKULATOR PERSEGI</h1>
+            
+
+        </div>
+    </header>
+    <main>
+        <aside>
+            
+            <div class="hitung-luas">
+
+                <h2>Kalkulator Luas Persegi</h2>
+                <img src="images/luasPersegi.png" alt=""><br><br>
+                <table border="0" align="center">
+                    <tr>
+                        <td>Rumus Luas Persegi</td>
+                    </tr>
+                    <tr>
+                        <td>L = S ✕ S</td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td>Keterangan</td>
+                    </tr>
+                    <tr>
+                        <td>L = Luas</td>
+                    </tr>
+                    <tr>
+                        <td>S = Sisi</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <h3>Hitung Luas Persegi</h3>
+                <form ><!--bagian input dan button-->
+                    <input  class="input" name="sisi-luas" id="sisi-luas" required><br><br>
+                    <button class="button1" style="vertical-align:middle" type="button" name="hitung-luas" onclick="hitungLuas()"><span>Hitung</span></button>
+                    <button class="button2" type="button" name="reset-luas" onclick="resetLuas()">Reset</button>
+                </form>
+                <script>
+                    //document.write(hitungLuas);
+                </script>
+                <p id="rumus_luas"></p>
+                <p id="prosesHitung_luas"></p>
+                <p id="output_luas"></p>
+
+            </div>
+        </aside>
+        <article>
+            <div class="hitung-keliling">
+                <h2>Kalkulator Keliling Persegi</h2>
+                <img src="images/kelilingPersegi.png" alt="">
+                <table border="0" align="center">
+                    <tr>
+                        <td>Rumus Luas Persegi</td>
+                    </tr>
+                    <tr>
+                        <td>L = S ✕ 4</td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td>Keterangan</td>
+                    </tr>
+                    <tr>
+                        <td>L = Luas</td>
+                    </tr>
+                    <tr>
+                        <td>S = Sisi</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <h3>Hitung Keliling Persegi</h3>
+                <form ><!--bagian input dan button-->
+                    <input  class="input" name="sisi-keliling" id="sisi-keliling" required><br><br>
+                    <button class="button1" style="vertical-align:middle" type="button" name="hitung-keliling" onclick="hitungKeliling()"><span>Hitung</span></button>
+                    <button class="button2" type="button" name="reset-keliling" onclick="resetKeliling()">Reset</button>
+                </form>
+                <script>
+                    //document.write(hitungLuas);
+                </script>
+                <!--tag kosong untuk print hasil-->
+                <p id="rumus_keliling"></p>
+                <p id="prosesHitung_keliling"></p>
+                <p id="output_keliling"></p>
+            </div>
+        </article>
+        
+        
+    </main>
+    
+    <footer>
+        <p><a href="https://instagram.com/chr.adyatma?igshid=MzRlODBiNWFlZA=="><img src="/images/logo.png" alt=""></a> chr.adyatma</p>
+    </footer>
+</body>
+</html>
