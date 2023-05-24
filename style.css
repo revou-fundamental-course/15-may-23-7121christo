@@ -28,6 +28,8 @@ aside img{
 
 .sisi-keliling {
     align-content: center;
+    align-items: center;
+    width: 100px;
 }
 
 article img{
